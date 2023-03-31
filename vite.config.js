@@ -10,9 +10,4 @@ export default defineConfig({
       'uid': path.resolve(__dirname, 'node_modules/uid/dist/index.js')
     }
   },
-  build: {
-    rollupOptions: {
-      external: ['uid']
-    }
-  }
 })
