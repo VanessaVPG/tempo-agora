@@ -60,7 +60,7 @@
 
 <script setup>
 import { ref } from "vue";
-import { uid } from "uid";
+import uid  from "uid";
 import { RouterLink, useRoute, useRouter } from "vue-router";
 import BaseModal from "./BaseModal.vue";
 
