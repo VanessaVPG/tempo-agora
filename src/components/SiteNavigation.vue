@@ -35,8 +35,9 @@
               guiado para os resultados referentes a essa cidade.
             </li>
             <li>
-              Adicione a cidade aos atalhos, clicando no símbolo de <span class="font-bold"> "+"</span>,
-              localizado ao lado deste ícone de informações.
+              Adicione a cidade aos atalhos, clicando no símbolo de
+              <span class="font-bold"> "+"</span>, localizado ao lado deste
+              ícone de informações.
             </li>
           </ol>
 
@@ -50,7 +51,8 @@
           </p>
 
           <p class="text-center italic font-bold pt-5">
-            Com o Tempo Agora, Agora você não perde Tempo, é fácil é rápido, você não precisa de Tempo para se acostumar ;D
+            Com o Tempo Agora, Agora você não perde Tempo, é fácil é rápido,
+            você não precisa de Tempo para se acostumar ;D
           </p>
         </div>
       </base-modal>
@@ -60,7 +62,7 @@
 
 <script setup>
 import { ref } from "vue";
-import uid  from "uid";
+import { uid } from "uid";
 import { RouterLink, useRoute, useRouter } from "vue-router";
 import BaseModal from "./BaseModal.vue";
 
